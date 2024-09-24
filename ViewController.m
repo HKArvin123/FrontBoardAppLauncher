@@ -12,7 +12,7 @@
 - (void)loadView {
     [super loadView];
     //self.view.backgroundColor = UIColor.systemBackgroundColor;
-    self.title = @"FrontBoardAppLauncher";
+    self.title = @"FrontBoard";
 
     LauncherViewController *launcherVC = [LauncherViewController new];
     
@@ -22,7 +22,7 @@ UINavigationController* navigationVC = [[UINavigationController alloc] initWithR
 
     DecoratedFloatingView *launcherView = [[DecoratedFloatingView alloc] initWithFrame:CGRectMake(0, 0, 400, 400) navigationBar:navigationVC.navigationBar];
     launcherView.center = self.view.center;
-    launcherView.navigationItem.title = @"FrontBoardAppLauncher";
+    launcherView.navigationItem.title = @"FrontBoard";
     [launcherView insertSubview:navigationVC.view atIndex:0];
     [self.view addSubview:launcherView];
     navigationVC.view.frame = launcherView.bounds;
