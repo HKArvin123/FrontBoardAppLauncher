@@ -42,7 +42,7 @@ void showDialog(UIViewController *viewController, NSString* title, NSString* mes
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.systemBackgroundColor;
-    self.title = @"FrontBoardAppLauncher";
+    self.title = @"FrontBoard";
 
 // PreviewsServicesUI
 // [UVInjectedScene injectInProcess:PID error:&error];
