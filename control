@@ -1,5 +1,5 @@
-Package: com.kdt.frontboardapplauncher
-Name: FrontBoardAppLauncher
+Package: com.kdt.frontboard
+Name: FrontBoard
 Version: 0.0.1
 Architecture: iphoneos-arm
 Description: An awesome application!
